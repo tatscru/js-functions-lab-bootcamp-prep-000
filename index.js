@@ -27,7 +27,7 @@ describe('functions', () => {
   })
 })
 
-function happyHolidays(string) {
-  return string.toEqual
+function happyHolidays () {
+  return "Happy Holidays!"
 }
   
