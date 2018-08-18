@@ -1,8 +1,12 @@
 // write your code below!
-describe('happyHolidays(string)', function () {
-  it('returns "Happy holidays!" if `string` is in all caps', function () {
+describe('happyHolidays()', function () {
+  it('returns "Happy holidays!"', function () {
     expect(happyHolidays('HAPPY HOLIDAYS')).toEqual('Happy holidays!')
   })
 })
-describe('happyHolidaysTo(string)', function ()
-  it('returns ')
+describe('happyHolidaysTo(name)', function () {
+  it('returns "Happy holidays, ${name}!"', function () {
+    expect(happyHolidaysTo())
+    expect(happyHolidaysTo())
+  }
+  
