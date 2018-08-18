@@ -28,6 +28,6 @@ describe('functions', () => {
 })
 
 function happyHolidays(string) {
-  return string.toEqual ()
+  return string.toEqual
 }
   
